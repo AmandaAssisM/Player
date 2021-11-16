@@ -7,12 +7,12 @@
 <img src="https://user-images.githubusercontent.com/92966154/141885664-7eedf814-a674-4ad1-aa02-886aa3a8cf76.png" alt="diagrama" width="400">
 
 
-## 💻 Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Python 3.6 +
 
-## 🚀 Instalando
+## Instalando
 
 Para instalar siga estas etapas:
 
@@ -22,7 +22,7 @@ pip install -r requiments.txt
 ```
 
 
-## ☕ Usando 
+## Usando 
 
 Para usar siga estas etapas:
 
