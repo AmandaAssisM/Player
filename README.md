@@ -21,7 +21,6 @@ Windows:
 pip install -r requiments.txt
 ```
 
-
 ## Usando 
 
 Para usar siga estas etapas:
