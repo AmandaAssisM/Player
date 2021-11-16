@@ -4,8 +4,7 @@
 
 ## Diagrama
 
-<img src="https://user-images.githubusercontent.com/92966154/141885664-7eedf814-a674-4ad1-aa02-886aa3a8cf76.png" alt="diagrama" width="400">
-
+<img src="https://user-images.githubusercontent.com/92966154/142063588-9c66d8ca-301d-47b3-9582-7cdd69f5a8b5.png" alt="diagrama" width="400">
 
 ## 💻 Pré-requisitos
 
