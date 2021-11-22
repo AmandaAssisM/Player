@@ -1,10 +1,8 @@
 from pygame import mixer
 from time import sleep
+import os
 
-
-musicas = ['./musicas/IZA - Meu Talismã.mp3', './musicas/Henrique e Juliano - A MAIOR SAUDADE.mp3',
-           './musicas/Henrique e Juliano - ACORDO.mp3', './musicas/Henrique e Juliano - GAIOLA.mp3',
-           './musicas/Xamã feat. Marília Mendonça - Leão.mp3']
+musicas = [f'./musicas/{music}' for music in os.listdir('./musicas')]
 music_file = musicas[0]
 
 mixer.init()
