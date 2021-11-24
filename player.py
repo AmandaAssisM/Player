@@ -1,11 +1,16 @@
 from pygame import mixer
 from time import sleep
+from download import *
 import os
 
 musicas = [f'./musicas/{music}' for music in os.listdir('./musicas')]
 music_file = musicas[0]
 
 mixer.init()
+
+def atualizar_lista_musicas():
+    global musicas
+    musicas = [f'./musicas/{music}' for music in os.listdir('./musicas')]
 
 def play_music():
     mixer.music.load(music_file)
@@ -64,10 +69,11 @@ def player_menu():
     [3] Próxima
     [4] Anterior
     [5] Parar
+    [6] Baixar uma música
      ''')
 
 def verificar_opcao(opcao):
-    opcoes_validas = ['1', '2', '3', '4', '5']
+    opcoes_validas = ['1', '2', '3', '4', '5', '6']
     
     if opcao not in opcoes_validas:
         raise Exception('Insira uma opção válida.')
@@ -88,4 +94,8 @@ def verificar_opcao(opcao):
         sleep(2)
         stop()
         raise SystemExit
-        
+
+    if opcao == opcoes_validas[5]:
+        print('Baixar música do YouTube.')
+        download_music()
+        atualizar_lista_musicas()
