@@ -10,6 +10,7 @@
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Python 3.6 +
+* [Moviepy](https://zulko.github.io/moviepy/install.html)
 
 ## 🚀 Instalando
 
