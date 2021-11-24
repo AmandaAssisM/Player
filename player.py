@@ -96,6 +96,6 @@ def verificar_opcao(opcao):
         raise SystemExit
 
     if opcao == opcoes_validas[5]:
-        print('Baixar música do YouTube.')
+        print('Baixar uma música do YouTube.')
         download_music()
         atualizar_lista_musicas()
