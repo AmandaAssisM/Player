@@ -12,6 +12,11 @@ def atualizar_lista_musicas():
     global musicas
     musicas = [f'./musicas/{music}' for music in os.listdir('./musicas')]
 
+def mostrar_nome_musica():
+    atualizar_lista_musicas()
+    nome_musica = music_file.replace('./musicas/', '')
+    print(nome_musica.replace('.mp3', ''))
+    
 def play_music():
     mixer.music.load(music_file)
     mixer.music.play()
