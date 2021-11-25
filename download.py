@@ -3,6 +3,7 @@ from pytube.cli import on_progress
 from moviepy.editor import *
 import os
 
+
 def download_music():
     link = input('Insira o link: ')
     yt = YouTube(link, on_progress_callback = on_progress)
